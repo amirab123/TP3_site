@@ -23,3 +23,67 @@ body {
     padding: 10px 0px;
     color: #ffff;
 }
+.logo
+
+{
+    width: 150px;
+    height: 80px;
+
+cursor: pointer;
+  
+ 
+  }
+  .logo-titre{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-titre h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white; 
+   
+}
+
+
+  /* Menu navigation */
+ 
+
+  nav ul {
+
+    list-style: none;
+   width: 100%;
+
+   text-align: right;
+   padding-right: 10px;
+
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+  }
+  
+  nav  a {
+    padding: 5px 10px;
+    color: #f5eded;
+    text-decoration: none;
+  
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+
+  }
+
+  .menu    {
+    flex-direction: column;
+    gap: 15px;
+    width: 30px; 
+    height: 30px;
+    cursor: pointer;
+  
+}
