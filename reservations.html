@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medina Lounge</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="img/restaurant-building.png">
+
+
+
+</head>
+<body>
+<header>
+
+<nav>
+   
+
+    <div class="logo-titre">
+        <a href="index.html">
+        <img src="img/logo-removebg-preview.png" alt="Logo" class="logo"></a>
+        <h1>Medina Lounge</h1>
+        </div>
+
+    <ul>
+        <li><a href="index.html" class="active">
+            Accueil  </a></li>
+        <li> <a href="reservations.html" >Réservation  </a>  </li>
+        <li> <a href="">Restaurant </a></li>
+   
+    </ul>
+    <a href="" class="btn-commande">Ma Commande</a>
+  
+
+  
+    <img src="img/menu-bar.png" alt="menu" class="menu">
+</nav>
+
+</header>
+
+<main class="container">
+<h1>Réservation</h1>
+
+<form action="/confirmation.html " method="post">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+    <label for="nom">Prénom :</label>
+    <input type="text" id="prenom" name="prenom" required>
+
+    <label for="telephone">Téléphone :</label>
+    <input type="tel" id="telephone" name="telephone" required>
+
+    <label for="date">Date de réservation :</label>
+    <input type="date" id="date" name="date" required>
+ 
+
+    <label for="lieu">Choisissez votre emplacement :</label>
+    <select id="lieu" name="lieu" required>
+        <option value="salle">Salle à manger</option>
+        <option value="terrasse">Terrasse</option>
+    </select>
+
+    <label for="heure">Sélectionnez l'heure :</label>
+    <select id="heure" name="heure" required>
+        <option value="12:00">12:00</option>
+        <option value="12:30">12:30</option>
+        <option value="13:00">13:00</option>
+        <option value="13:30">13:30</option>
+        <option value="17:00">17:00</option>
+        <option value="17:30">17:30</option>
+        <option value="18:00">18:00</option>
+        <option value="18:30">18:30</option>
+        <option value="19:00">19:00</option>
+        <option value="19:30">19:30</option>
+        <option value="20:00">20:00</option>
+        <option value="20:30">20:30</option>
+        <option value="21:00">21:00</option>
+    </select>
+
+    <label for="personnes">Nombre de personnes :</label>
+    <input type="number" id="personnes" name="personnes" min="1" required>
+
+    <label for="message">Remarque (optionnel) :</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" >
+    <div class="div-checkbox">
+    <label for="infolettre">S'inscrire à l’infolettre</label>
+    <input type="checkbox" id="infolettre" name="infolettre">
+</div>
+
+    <button type="submit" class="button-reserve">Réserver</button>
+</form>
+
+    
+  
+</main>
+
+
+   
+   
+   <footer class="footer container">
+    <div class="footer-top">
+        <div class="author">
+            <img src="img/email.png" alt="email">
+           Réalisé par : <strong>Amira belgharat</strong>
+        </div>
+        <div class="social-media">
+            <strong>   Réseaux sociaux :</strong>
+            <img src="img/facebook-logo.png" alt="facebook">
+            <img src="img/linkedin.png" alt="linkedin">
+            <img src="img/instagram.png" alt="instagram">
+            <img src="img/twitter.png" alt="twitter">
+        </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+        <span><a href="#">Intégration web 1</a></span>
+   
+        <div class="footer-bottom-right">
+            <span><a href="#">Cégep de Trois-Rivières</a></span>
+        <span><a href="#">Automne 2024</a></span>
+    </div>
+    </div>
+</footer>
+   
+</body>
+</html>
