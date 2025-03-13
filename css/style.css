@@ -510,13 +510,7 @@ text-decoration: underline;
 }
 
 
-@media (max-width: 1200px) {
-  /* Ajustements pour les écrans entre 960px et 1200px */
-}
 
-@media (max-width: 960px) {
-  /* Réorganisation des colonnes, réduction des marges, etc. */
-}
 /* RESPONSIVE footer ------------------------------------------------- */
 @media screen and (max-width: 768px) {
   .footer-top,
@@ -535,5 +529,31 @@ text-decoration: underline;
   .footer-bottom-right {
       flex-direction: column;
       gap: 5px;
+  }
+}
+
+/*  Responsive Design  page reservation */
+@media (max-width: 768px) {
+  form {
+      padding: 15px;
+      background-color: #C1272D;
+  }
+  
+ 
+}
+
+@media (max-width: 480px) {
+  body {
+      padding: 10px;
+  }
+
+  .reservation-container {
+      width: 100%;
+      padding: 10px;
+    
+  }
+
+  input, select {
+      font-size: 0.9rem;
   }
 }
