@@ -11,14 +11,15 @@
 <header>
 
 <nav>
-    <div class="logo-titre">
-        <a href="index.html">
-        <img src="img/logo-removebg-preview.png" alt="Logo" class="logo"></a>
-        <h1>Medina Lounge</h1>
-        </div>
+    <h1 class="logo-titre">
+        <a href="index.html" class="logo-container">
+            <img src="img/logo-removebg-preview.png" alt="Logo du restaurant" class="logo">
+          
+        </a>
+        <span class="logo-texte">Medina Lounge</span>
+    </h1>
     <ul>
         <li><a href="index.html">Accueil  </a></li>
-            
         <li> <a href="reservations.html"class="active" >Réservation  </a>  </li>
         <li> <a href="restaurant.html">Restaurant </a></li>
         <li><a href="commande.html" class="btn-commande">Ma commande</a></li>
@@ -33,7 +34,7 @@
 <main class="container">
 <h1>Réservation</h1>
 
-<form action="/confirmation.html " method="post">
+<form action="/confirmation.html " method="post" class="reservation-container">
     <label for="nom">Nom du client  :</label>
     <input type="text" id="nom" name="nom" required>
     <label for="nom">Prénom  du client :</label>

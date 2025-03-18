@@ -5,7 +5,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: "Poppins", serif ;
+ font-family: "Poppins", "Open", sans-serif;
 
 } 
 
@@ -83,14 +83,48 @@ cursor: pointer;
     font-weight: bold;
   }
 
-  .menu    {
-    flex-direction: column;
-    gap: 15px;
-    width: 30px; 
-    height: 30px;
-    cursor: pointer;
-  
+ 
+.menu    {
+  display: none;
+  width: 30px;
+  cursor: pointer;
+  gap: 15px;
+  height: 30px;
+  cursor: pointer;
+
 }
+#menu-toggle {
+display: none;
+}
+.menu {
+  display: block;
+}
+
+/* Affichage du menu si case cochée */
+#menu-toggle:checked + .menu +ul {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .logo-texte {
+    display: none;
+  }
+
+  .logo {
+    width: 200px; /* Réduire la taille du logo sur les petits écrans */
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .logo {
+      width: 200px; /* Réduire la taille du logo sur les petits écrans */
+  }
+}
+/* Cacher la case à cocher */
+
+
 .container{
   max-width: 1200px;
   width: 90%;
@@ -150,7 +184,7 @@ p {
 
   background-color: #006d80; /* Couleur bleue */
             color: white;
-            font-weight: bold;
+    
             padding: 10px 20px;
             border: none;
             border-radius: 10px;
