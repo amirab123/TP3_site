@@ -27,9 +27,9 @@ body {
 .logo
 
 {
-    width: 150px;
-    height: 80px;
-
+  width: 100px;
+   
+  height: auto;
 cursor: pointer;
   
  
@@ -37,11 +37,16 @@ cursor: pointer;
   .logo-titre{
     width: 800px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+    justify-content: center; 
+    align-items: center; 
 }
-
+.logo-texte  {
+  white-space: nowrap; 
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white; 
+}
 .logo-titre h1 {
     font-size: 28px;
     font-weight: bold;
@@ -52,7 +57,7 @@ cursor: pointer;
 
   /* Menu navigation */
  
-
+ 
   nav ul {
 
     list-style: none;
@@ -92,6 +97,7 @@ cursor: pointer;
   height: 30px;
   cursor: pointer;
 
+
 }
 #menu-toggle {
 display: none;
@@ -100,9 +106,7 @@ display: none;
 
 
 
-.menu {
-  display: block;
-}
+
 
 /* Affichage du menu si case cochée */
 #menu-toggle:checked + .menu +ul {
