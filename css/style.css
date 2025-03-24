@@ -336,7 +336,19 @@ border-radius: 50%;
   font-style: italic;
   color: #555;
 }
+/* Responsive */
+@media (max-width: 1024px) {
+  .temoignage-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  }
+}
 
+/* Responsive pour mobiles */
+@media (max-width: 600px) {
+  .temoignage-grid {
+      grid-template-columns: repeat(1, 1fr); /* 1 seule colonne */
+  }
+}
 form {
   display: flex;
   flex-direction: column;
