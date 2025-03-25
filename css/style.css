@@ -147,7 +147,7 @@ display: none;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
   .logo-texte {
     display: none;
   }
@@ -159,13 +159,13 @@ display: none;
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 570px) {
   .logo {
       width: 200px; /* Réduire la taille du logo sur les petits écrans */
   }
 }
 /* Cacher la case à cocher */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .nav-menu {
       display: none;
       flex-direction: column;
@@ -337,14 +337,14 @@ border-radius: 50%;
   color: #555;
 }
 /* Responsive */
-@media (max-width: 1024px) {
+@media (max-width: 960px) {
   .temoignage-grid {
       grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
   }
 }
 
 /* Responsive pour mobiles */
-@media (max-width: 600px) {
+@media (max-width: 570px) {
   .temoignage-grid {
       grid-template-columns: repeat(1, 1fr); /* 1 seule colonne */
   }
@@ -650,7 +650,7 @@ text-decoration: underline;
 
 
 /* RESPONSIVE footer ------------------------------------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .footer-top,
   .footer-bottom {
       flex-direction: column;
@@ -671,7 +671,7 @@ text-decoration: underline;
 }
 
 /*  Responsive Design  page reservation */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   form {
       padding: 15px;
       background-color: #C1272D;
@@ -680,7 +680,7 @@ text-decoration: underline;
  
 }
 
-@media (max-width: 480px) {
+@media (max-width: 570px) {
   body {
       padding: 10px;
   }
@@ -698,8 +698,8 @@ text-decoration: underline;
 
 /* RESPONSIVE DESIGN page commande */
 
-/* Tablettes (moins de 1024px) */
-@media screen and (max-width: 1024px) {
+/*  (moins de 960px) */
+@media screen and (max-width: 960px) {
   .commande {
       flex-direction: column;
       align-items: center;
@@ -716,8 +716,8 @@ text-decoration: underline;
   }
 }
 
-/* Mobiles (moins de 768px) */
-@media screen and (max-width: 768px) {
+/* Fin RESPONSIVE DESIGN page commande */
+@media screen and (max-width: 570px) {
   .commande {
       flex-direction: column;
       align-items: center;
