@@ -147,7 +147,7 @@ display: none;
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 800px) {
   .logo-texte {
     display: none;
   }
