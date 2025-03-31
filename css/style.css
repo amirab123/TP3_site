@@ -644,7 +644,7 @@ iframe {
 }
 @media (max-width: 960px) {
   .info {
-    width: 50%; /* Augmente la largeur pour s'adapter aux écrans moyens */
+    width: 50%; 
     padding: 15px;
   }
 
@@ -688,6 +688,12 @@ iframe {
   }
 /* page commande 
 */
+
+.h1-commande  {
+  margin-left: -20px; 
+  padding: 20px;
+  font-size: 2.5rem;
+}
 .commande {
   display: flex;
   justify-content: space-between; 

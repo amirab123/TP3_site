@@ -20,7 +20,7 @@
  
     <ul class="nav-menu" id="nav-menu">
         <li><a href="index.html">Accueil  </a></li>
-        <li> <a href="reservations.html"class="active">Réservation  </a>  </li>
+        <li> <a href="reservations.html" class="active" >Réservation  </a>  </li>
         <li> <a href="restaurant.html">Restaurant </a></li>
         <li><a href="commande.html" class="btn-commande">Ma commande</a></li>
     </ul>
@@ -49,12 +49,14 @@
 
     <label for="lieu">Choisissez votre emplacement :</label>
     <select id="lieu" name="lieu" required>
+        <option value="" disabled selected>Où souhaitez-vous être installé ? </option>
         <option value="salle">Salle à manger</option>
         <option value="terrasse">Terrasse</option>
     </select>
 
     <label for="heure">Sélectionnez l'heure :</label>
     <select id="heure" name="heure" required>
+        <option value="" disabled selected> À quelle heure souhaitez-vous réserver ? </option>
         <option value="12:00">12:00</option>
         <option value="12:30">12:30</option>
         <option value="13:00">13:00</option>
