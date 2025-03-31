@@ -27,7 +27,7 @@ body {
 .logo
 {
   margin-left: 3%;
-  width: 100px;
+  width: 200px;
   height: auto;
 cursor: pointer;
   }
@@ -101,7 +101,7 @@ display: none;
 }
 @media (max-width:1200px ) {
   .logo  {
-    width: 200px;  
+    width: 150px;  
     height: auto;  
   }
 }
@@ -509,7 +509,7 @@ select {
   object-fit: cover;
 }
 
-.img1 { grid-column: span 1; grid-row: span 1; }
+      .img1 { grid-column: span 1; grid-row: span 1; }
       .img2 { grid-column: span 1; grid-row: span 1; }
       .img3 { grid-column: span 2; grid-row: span 2; }
       .img4 { grid-column: span 2; grid-row: span 3; }
@@ -596,6 +596,9 @@ iframe {
 
   .map {
     width: 50%; 
+  }
+  iframe {
+    height: 350px; 
   }
 }
 @media scree  and  (max-width: 570px) {
