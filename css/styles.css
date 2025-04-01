@@ -299,14 +299,19 @@ section 1 :page index.html
 @media screen  and  (max-width: 960px) {
   .section-page {
    
-      flex-direction: column; 
-      align-items: center;
-      justify-content: center;
-      padding: 15px;
-      height: auto; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: auto;
+      
+  
     }
    
-  
+    .image {
+      margin-bottom: 15px;
+   
+    }
 
   .texte {
     width: 100%;
@@ -316,7 +321,10 @@ section 1 :page index.html
   .texte h2 {
     font-size: 40px;
   }
-
+  .btn-dark, .btn-light {
+    font-size: 1rem; 
+    padding: 12px 20px; 
+  }
  
 }
 @media screen  and  (max-width: 570px) {
@@ -324,9 +332,8 @@ section 1 :page index.html
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-  
-    height: auto;
     padding: 5px;
+    height: auto;
   }
   .image {
     display: none;
@@ -343,7 +350,13 @@ section 1 :page index.html
   .texte p {
     font-size: 16px;
   }
+  .btn-dark, .btn-light {
 
+    font-size: 0.9rem; 
+    padding: 10px 15px; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px #005F73; 
+  }
  
 }
 
@@ -408,7 +421,7 @@ section 2:page index.html
   .temoignage {
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 1px 1px 8px rgba(233, 112, 112, 0.08);
   }
 
   .profil img {
@@ -439,10 +452,16 @@ section2 :page index.html
   .temoignage-grid {
       grid-template-columns: repeat(2, 1fr); 
   }
+  .texte-profil {
+    font-style: normal; 
+    color: #333; 
+  }
 }
 
 /* Responsive pour mobiles */
 @media   (max-width: 570px) {
+
+
   .temoignage-h2 {
     font-size: 1.5rem; /* Réduit la taille du titre */
    
@@ -451,8 +470,18 @@ section2 :page index.html
     font-size: 0.8rem; /* Réduit la taille du titre */
  
   }
+  .temoignage {
+  
+    padding: 10px; 
+    border-radius: 6px; 
+    box-shadow: 1px 1px 6px rgba(233, 112, 112, 0.08);
+  }
   .temoignage-grid {
       grid-template-columns: repeat(1, 1fr); 
+  }
+  .texte-profil {
+    font-style: normal; 
+    color: #080606;
   }
 }
 
@@ -815,6 +844,11 @@ text-decoration: underline;
 {
   font-size: 2rem; 
 }
+
+.h1-reservation 
+{
+  font-size: 2rem; 
+}
 }
 
 @media screen  and (max-width: 570px) {
@@ -830,6 +864,10 @@ text-decoration: underline;
   font-size: 1.5rem; 
 }
 .h1-restaurant
+{
+  font-size: 1.5rem; 
+}
+.h1-reservation 
 {
   font-size: 1.5rem; 
 }
@@ -913,7 +951,9 @@ text-decoration: underline;
       background-color: #C1272D;
   }
   
- 
+  input, select {
+    font-size: 0.85rem;
+}
 }
 @media screen and (max-width: 570px) {
   body {
@@ -924,14 +964,9 @@ text-decoration: underline;
     background-color: #cf3c41;
 }
 
-  .reservation-container {
-      width: 100%;
-      padding: 10px;
-    
-  }
 
   input, select {
-      font-size: 0.9rem;
+      font-size: 0.7rem;
   }
 }
 
