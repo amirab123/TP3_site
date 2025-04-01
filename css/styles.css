@@ -948,10 +948,15 @@ text-decoration: underline;
   .Entrées {
       width: 100%;
   }
-
+  .Entrées  h2 {
+    font-size: 22px;
+}
   .details {
       width: 80%;
       margin-top: 20px;
+  }
+  .details h3 {
+    font-size: 24px;
   }
 }
 
@@ -974,11 +979,17 @@ text-decoration: underline;
   th, td {
       padding: 8px;
   }
-
+  .Entrées  h2 {
+    font-size: 18px;
+}
   .details {
       width: 90%;
       margin-top: 15px;
     
+  }
+  .details h3 {
+ 
+    font-size: 20px;
   }
 
 
