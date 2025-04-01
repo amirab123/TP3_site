@@ -9,6 +9,7 @@
 
 } 
 
+
 body {
     background-color:#F5E6CA;
    }
@@ -903,6 +904,8 @@ text-decoration: underline;
   }
 }
 
+
+
 /*  Responsive Design  page reservation */
 @media screen  and  (max-width: 960px) {
   form {
@@ -916,6 +919,10 @@ text-decoration: underline;
   body {
       padding: 10px;
   }
+  form {
+    padding: 10px;
+    background-color: #cf3c41;
+}
 
   .reservation-container {
       width: 100%;
