@@ -829,9 +829,9 @@ text-decoration: underline;
 
 @media screen  and (max-width: 960px) {
   .container {
-    padding: 20px; 
-    width: 90%; 
-    margin: 0 auto;
+   
+  
+    padding: 0 20px;
   }
   .h1-commande  {
     font-size: 2rem; 
@@ -854,7 +854,8 @@ text-decoration: underline;
 @media screen  and (max-width: 570px) {
   .container {
      width: 95% ;
-      padding: 5px;
+   
+      padding: 0 10px;
   }
   .h1-commande  {
     font-size: 1.5rem;
