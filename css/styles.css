@@ -660,7 +660,7 @@ iframe {
     height: 350px; 
   }
 }
-@media scree  and  (max-width: 570px) {
+@media screen  and  (max-width: 570px) {
   .info {
     width: 100%;
     text-align: center; 
