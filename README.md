@@ -1,4 +1,4 @@
-# TP3-amira-belgharat
+# TP3-amira
 un site web responsive de quelques pages pour le restaurant  .
 ● Page d’accueil (index.html), avec le menu du restaurant
 ● Page “Réservation” (avec formulaire de réservation)
